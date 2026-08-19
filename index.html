@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ Thống Thời Khóa Biểu 2026 - 2027 | Trường Tiểu Học Nguyễn An Khương (V2.2)</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen flex flex-col bg-slate-100 text-slate-800 antialiased font-sans">
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-r from-blue-900 via-indigo-900 to-blue-950 text-white shadow-md border-b border-blue-800 no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        
+        <!-- School Branding -->
+        <div class="flex items-center gap-3.5">
+          <div class="w-11 h-11 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center text-2xl shadow-inner flex-shrink-0">
+            🏫
+          </div>
+          <div>
+            <div class="text-[10px] font-semibold tracking-wider text-blue-200 uppercase">
+              UỶ BAN NHÂN DÂN PHƯỜNG ĐÔNG HƯNG THUẬN
+            </div>
+            <h1 class="text-lg sm:text-xl font-black tracking-tight text-white flex items-center gap-2">
+              TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-blue-500/30 text-blue-200 border border-blue-400/30 font-bold">V2.2</span>
+            </h1>
+            <div class="text-[11px] text-blue-200 mt-0.5 flex items-center gap-2.5">
+              <span>📅 Năm học 2026 - 2027</span>
+              <span>•</span>
+              <span>🎓 29 Lớp học</span>
+              <span>•</span>
+              <span>👩‍🏫 57 Giáo viên</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role / Action Controls -->
+        <div class="flex items-center gap-2.5 flex-wrap">
+          
+          <!-- User Login Button (Visible for regular users) -->
+          <button id="btnAdminLogin" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-white text-xs font-semibold border border-white/20 transition flex items-center gap-1.5 shadow-sm">
+            <span>🔒</span> Đăng Nhập Quản Trị
+          </button>
+
+          <!-- Admin Mode Controls (Visible only when logged in as admin) -->
+          <div id="adminBadgeGroup" class="hidden flex items-center gap-2 flex-wrap">
+            <div id="auditScoreBadge" class="px-3 py-1.5 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 flex items-center gap-1.5">
+              <span>✓</span> 100% TUÂN THỦ QUY TẮC (16/16)
+            </div>
+            <button id="btnRegen" class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold shadow transition flex items-center gap-1.5">
+              <span>🔄</span> Xếp Lại TKB
+            </button>
+            <button id="btnAdminLogout" class="px-3 py-1.5 rounded-lg bg-red-600/80 hover:bg-red-500 text-white text-xs font-semibold transition flex items-center gap-1">
+              <span>🚪</span> Đăng Xuất Admin
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="bg-white border-b border-slate-200 shadow-sm sticky top-0 z-30 no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between overflow-x-auto">
+        
+        <!-- Tabs -->
+        <div class="flex space-x-1 sm:space-x-4 py-2 flex-shrink-0">
+          <button data-view="class" class="nav-tab px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold border-b-2 border-blue-600 text-blue-600 transition flex items-center gap-1.5">
+            <span>📚</span> Xem Theo Lớp
+          </button>
+          <button data-view="teacher" class="nav-tab px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition flex items-center gap-1.5">
+            <span>👨‍🏫</span> Xem Theo Giáo Viên
+          </button>
+          <button data-view="master" class="nav-tab px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition flex items-center gap-1.5">
+            <span>📊</span> Ma Trận Toàn Trường
+          </button>
+          <!-- Admin Only Tab -->
+          <button data-view="audit" class="nav-tab admin-only hidden px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition flex items-center gap-1.5">
+            <span>🛡️</span> Kiểm Định Quy Tắc (16 Tiêu Chí)
+          </button>
+          <button data-view="data" class="nav-tab px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 transition flex items-center gap-1.5">
+            <span>📋</span> Phân Công 57 GV
+          </button>
+        </div>
+
+        <!-- Utilities -->
+        <div class="flex items-center gap-2 py-2 flex-shrink-0">
+          <button id="btnPrint" class="px-3.5 py-1.5 rounded-lg bg-indigo-900 hover:bg-indigo-800 text-white text-xs font-bold transition flex items-center gap-1.5 shadow-sm">
+            <span>🖨️</span> In / PDF (A4 Ngang)
+          </button>
+          <button id="btnExportCSV" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold transition flex items-center gap-1 shadow-sm">
+            <span>📥</span> Xuất Excel
+          </button>
+          <button id="btnExportJSON" class="admin-only hidden px-2.5 py-1.5 rounded-lg border border-slate-300 hover:bg-slate-50 text-slate-600 text-xs font-medium transition" title="Sao lưu dữ liệu JSON">
+            JSON
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-2 sm:px-4 lg:px-6 py-5">
+
+    <!-- 1. PANEL: XEM THEO LỚP (MẪU IN A4 LANDSCAPE CHUẨN) -->
+    <section id="panel-class" class="view-panel space-y-4">
+      
+      <!-- Filter Bar -->
+      <div class="bg-white p-3.5 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 no-print">
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-xs font-bold text-slate-500 uppercase mr-1">Khối lớp:</span>
+          <button data-grade="all" class="grade-btn active px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white transition">Tất cả (29 lớp)</button>
+          <button data-grade="1" class="grade-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Khối 1 (6 lớp)</button>
+          <button data-grade="2" class="grade-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Khối 2 (6 lớp)</button>
+          <button data-grade="3" class="grade-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Khối 3 (6 lớp)</button>
+          <button data-grade="4" class="grade-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Khối 4 (6 lớp)</button>
+          <button data-grade="5" class="grade-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Khối 5 (5 lớp)</button>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <label for="classSelect" class="text-xs font-bold text-slate-700 whitespace-nowrap">Chọn lớp:</label>
+          <select id="classSelect" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs sm:text-sm font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 shadow-sm">
+            <!-- Populated via app.js -->
+          </select>
+        </div>
+      </div>
+
+      <!-- Class Timetable Print-Ready Container -->
+      <div id="classTimetableContainer">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- 2. PANEL: XEM THEO GIÁO VIÊN -->
+    <section id="panel-teacher" class="view-panel space-y-4 hidden">
+      <div class="bg-white p-3.5 rounded-xl border border-slate-200 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 no-print">
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-xs font-bold text-slate-500 uppercase mr-1">Nhóm GV:</span>
+          <button data-type="all" class="teacher-type-btn active px-3 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white transition">Tất cả (57 GV)</button>
+          <button data-type="specialist" class="teacher-type-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Bộ môn & TPT (9 GV)</button>
+          <button data-type="partner" class="teacher-type-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Đối tác Liên kết (18 GV)</button>
+          <button data-type="gvcn" class="teacher-type-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">Chủ nhiệm (29 GVCN)</button>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <label for="teacherSelect" class="text-xs font-bold text-slate-700 whitespace-nowrap">Chọn Giáo viên:</label>
+          <select id="teacherSelect" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs sm:text-sm font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 shadow-sm">
+            <!-- Populated via app.js -->
+          </select>
+        </div>
+      </div>
+
+      <!-- Teacher Header Box -->
+      <div class="bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-100 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div>
+          <h2 id="teacherTitleHeader" class="text-lg sm:text-xl font-black text-emerald-950">LỊCH GIẢNG DẠY GIÁO VIÊN</h2>
+          <p id="teacherSubtitleHeader" class="text-xs text-emerald-700 mt-0.5">Thông tin phân công chuyên môn và số tiết giảng dạy trong tuần</p>
+        </div>
+      </div>
+
+      <!-- Teacher Timetable Grid Table -->
+      <div id="teacherTimetableContainer">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- 3. PANEL: MA TRẬN TOÀN TRƯỜNG -->
+    <section id="panel-master" class="view-panel space-y-4 hidden">
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
+        <div>
+          <h2 class="text-base font-bold text-slate-900">Ma Trận Tổng Thể Thời Khóa Biểu 29 Lớp (Thứ 2 - Thứ 6)</h2>
+          <p class="text-xs text-slate-500 mt-0.5">Bảng tổng hợp toàn bộ 1.100 tiết học của 29 lớp trong tuần</p>
+        </div>
+      </div>
+      <div id="masterTimetableContainer">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- 4. PANEL: KIỂM ĐỊNH QUY TẮC (ADMIN ONLY) -->
+    <section id="panel-audit" class="view-panel space-y-6 hidden">
+      <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between mb-4">
+          <div>
+            <h2 class="text-lg font-black text-slate-900">Hệ Thống Kiểm Định Quy Tắc Tự Động (Rule Audit Engine)</h2>
+            <p class="text-xs text-slate-500 mt-1">Đối chiếu toàn bộ 1.100 tiết học với 16 ràng buộc sư phạm & quy định chuyên môn</p>
+          </div>
+          <button onclick="runAudit(); showToast('Đã chạy lại kiểm định quy tắc!');" class="px-3.5 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-semibold shadow transition">
+            Kiểm tra lại
+          </button>
+        </div>
+        <div id="auditDetailsContainer">
+          <!-- Rendered by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PANEL: DANH SÁCH 57 GV & PHÂN CÔNG -->
+    <section id="panel-data" class="view-panel space-y-6 hidden">
+      <div id="dataTablesContainer">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t border-slate-200 mt-12 py-6 text-center text-xs text-slate-500 no-print">
+    <div class="max-w-7xl mx-auto px-4 space-y-1">
+      <div class="font-semibold text-slate-700">TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG — NĂM HỌC 2026 - 2027</div>
+      <div>Hiệu trưởng: Hồ Thị Ngọc Diễm | Quản lý: UBND Phường Đông Hưng Thuận</div>
+      <div class="text-[11px] text-slate-400 mt-2">Hệ thống phân phối và xếp Thời khóa biểu tự động hóa chuẩn GDPT 2018 (Phiên bản V2.2)</div>
+    </div>
+  </footer>
+
+  <!-- ADMIN LOGIN MODAL -->
+  <div id="adminModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <div class="bg-white rounded-2xl shadow-2xl border border-slate-200 max-w-md w-full p-6 space-y-5 animate-fade-in">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3">
+        <div class="flex items-center gap-2.5">
+          <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold">🔒</span>
+          <h3 class="font-bold text-slate-900 text-base">Xác Thực Quản Trị Viên (BGH)</h3>
+        </div>
+        <button id="btnCloseModal" class="text-slate-400 hover:text-slate-600 text-lg font-bold p-1">&times;</button>
+      </div>
+
+      <form id="adminLoginForm" class="space-y-4">
+        <div>
+          <label for="adminPassInput" class="block text-xs font-bold text-slate-700 mb-1">Mật khẩu Quản trị Admin:</label>
+          <input type="password" id="adminPassInput" placeholder="Nhập mật khẩu..." required class="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none transition">
+          <p id="adminPassError" class="text-xs text-red-600 mt-1.5 hidden"></p>
+        </div>
+
+        <div class="flex items-center justify-end gap-2 pt-2">
+          <button type="button" onclick="closeAdminModal()" class="px-4 py-2 rounded-lg border border-slate-300 hover:bg-slate-50 text-slate-700 text-xs font-semibold transition">
+            Hủy bỏ
+          </button>
+          <button type="submit" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold shadow transition">
+            Đăng Nhập
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Core Scripts -->
+  <script src="data.js"></script>
+  <script src="solver.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

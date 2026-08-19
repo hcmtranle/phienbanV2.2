@@ -1,0 +1,5868 @@
+{
+  "version": "V2.1",
+  "school_info": {
+    "name": "Trường Tiểu học Nguyễn An Khương",
+    "district": "UỶ BAN NHÂN DÂN PHƯỜNG ĐÔNG HƯNG THUẬN",
+    "principal": "Hồ Thị Ngọc Diễm",
+    "year": "2026 - 2027",
+    "scale": "29 Lớp học (Khối 1 - 5) | 57 Giáo viên",
+    "admin_pass": "Tram@0211"
+  },
+  "days": [
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "T6"
+  ],
+  "schedule": {
+    "1.1": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "4": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "5": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "3": {
+          "subject": "TH",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "5": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        },
+        "7": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_1",
+          "teacher_name": "GV CDS (1)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_1_1",
+          "teacher_name": "Cô Linh (1.1)"
+        }
+      }
+    },
+    "1.2": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "5": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "6": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "7": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "3": {
+          "subject": "TH",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "5": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "5": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "7": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "5": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_1",
+          "teacher_name": "GV CDS (1)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_1_2",
+          "teacher_name": "Cô Hoa (1.2)"
+        }
+      }
+    },
+    "1.3": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "5": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "6": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_1",
+          "teacher_name": "GV CDS (1)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TH",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "5": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_1_3",
+          "teacher_name": "Cô Hân (1.3)"
+        }
+      }
+    },
+    "1.4": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "5": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "6": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "6": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "7": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "4": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "5": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "5": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_1",
+          "teacher_name": "GV CDS (1)"
+        },
+        "6": {
+          "subject": "TH",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_1_4",
+          "teacher_name": "Cô Nga (1.4)"
+        }
+      }
+    },
+    "1.5": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "5": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        },
+        "6": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "2": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "4": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "5": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        },
+        "6": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_1",
+          "teacher_name": "GV CDS (1)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_1_5",
+          "teacher_name": "Cô Thảo (1.5)"
+        }
+      }
+    },
+    "1.6": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "6": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "7": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "4": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_avs",
+          "teacher_name": "TA(T-K) AVS"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "6": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_1",
+          "teacher_name": "GV CDS (1)"
+        },
+        "7": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "5": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_1_6",
+          "teacher_name": "Cô Phương Anh (1.6)"
+        }
+      }
+    },
+    "2.1": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "7": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "5": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "6": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_2",
+          "teacher_name": "GV CDS (2)"
+        },
+        "7": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "5": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "3": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        },
+        "7": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        },
+        "6": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_2_1",
+          "teacher_name": "Cô Phượng (2.1)"
+        }
+      }
+    },
+    "2.2": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "5": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        },
+        "7": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_2",
+          "teacher_name": "GV CDS (2)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "2": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "4": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "7": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "5": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "6": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_2_2",
+          "teacher_name": "Cô Ngân (2.2)"
+        }
+      }
+    },
+    "2.3": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "5": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_2",
+          "teacher_name": "GV CDS (2)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "4": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        },
+        "7": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "5": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "7": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "5": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "6": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "5": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "6": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_2_3",
+          "teacher_name": "Cô Hải Yến (2.3)"
+        }
+      }
+    },
+    "2.4": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "3": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_1",
+          "teacher_name": "GV TA-BN (1)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_1",
+          "teacher_name": "GV STEM (1)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "7": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_1",
+          "teacher_name": "GV Toán TD (1)"
+        },
+        "6": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "7": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_2",
+          "teacher_name": "GV CDS (2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "5": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_2_4",
+          "teacher_name": "Cô Gia Linh (2.4)"
+        }
+      }
+    },
+    "2.5": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "7": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "5": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "6": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "7": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "6": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "7": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_tien",
+          "teacher_name": "Thầy Tiến (GDTC)"
+        },
+        "2": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "3": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "5": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_2",
+          "teacher_name": "GV CDS (2)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_2_5",
+          "teacher_name": "Cô Tịnh (2.5)"
+        }
+      }
+    },
+    "2.6": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "5": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "3": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "5": {
+          "subject": "CDS",
+          "teacher_id": "t_cds_2",
+          "teacher_name": "GV CDS (2)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "7": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "6": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "7": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "6": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_2_6",
+          "teacher_name": "Cô Hằng (2.6)"
+        }
+      }
+    },
+    "3.1": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "6": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "5": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "7": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "7": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "2": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "3": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "5": {
+          "subject": "CN",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_1",
+          "teacher_name": "Cô Trúc (3.1)"
+        }
+      }
+    },
+    "3.2": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "3": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "4": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "5": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "7": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "8": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "2": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "3": {
+          "subject": "CN",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "4": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_thy",
+          "teacher_name": "Cô Thy (TA)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_2",
+          "teacher_name": "Cô Yến Nhi (3.2)"
+        }
+      }
+    },
+    "3.3": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "2": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "3": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "4": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "5": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "7": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "8": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "3": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "4": {
+          "subject": "CN",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_3_3",
+          "teacher_name": "Cô Kim Anh (3.3)"
+        },
+        "8": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        }
+      }
+    },
+    "3.4": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "5": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "5": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        },
+        "6": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "2": {
+          "subject": "CN",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_3_4",
+          "teacher_name": "Cô Uyên (3.4)"
+        },
+        "8": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        }
+      }
+    },
+    "3.5": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "6": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "2": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "3": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "7": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "3": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_tam",
+          "teacher_name": "Cô Tâm (TA)"
+        },
+        "7": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "8": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "4": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "5": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "6": {
+          "subject": "CN",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_5",
+          "teacher_name": "Cô Yến Nhi (3.5)"
+        }
+      }
+    },
+    "3.6": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_1",
+          "teacher_name": "GV TA-TK (1)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        },
+        "7": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "5": {
+          "subject": "TNXH",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "6": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "5": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "6": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "8": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "2": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "4": {
+          "subject": "CN",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_3_6",
+          "teacher_name": "Cô Thảo (3.6)"
+        }
+      }
+    },
+    "4.1": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "7": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "8": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "5": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "7": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "8": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "4": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "6": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "8": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "5": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "3": {
+          "subject": "CN",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_4_1",
+          "teacher_name": "Cô Huế (4.1)"
+        },
+        "8": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        }
+      }
+    },
+    "4.2": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "3": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "4": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "5": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "7": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "8": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_2",
+          "teacher_name": "GV TA-BN (2)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_2",
+          "teacher_name": "GV Toán TD (2)"
+        },
+        "7": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "8": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "8": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_2",
+          "teacher_name": "GV STEM (2)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "7": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "5": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "6": {
+          "subject": "CN",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_2",
+          "teacher_name": "Cô Thu Hương (4.2)"
+        }
+      }
+    },
+    "4.3": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "5": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_1",
+          "teacher_name": "GV KNS (1)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "8": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "3": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "7": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "8": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "3": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "4": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "5": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "7": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        },
+        "8": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_1",
+          "teacher_name": "GV IC3 (1)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "3": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "4": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "2": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "3": {
+          "subject": "CN",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "6": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_3",
+          "teacher_name": "Thầy Thắng (4.3)"
+        }
+      }
+    },
+    "4.4": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "4": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "7": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "8": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "2": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "6": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        },
+        "7": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "8": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "5": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "8": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "2": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "3": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "4": {
+          "subject": "CN",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "6": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_4_4",
+          "teacher_name": "Cô Minh Phương (4.4)"
+        },
+        "8": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        }
+      }
+    },
+    "4.5": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "7": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        },
+        "8": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "8": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "7": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "8": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "2": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "3": {
+          "subject": "CN",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        },
+        "8": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_4_5",
+          "teacher_name": "Cô Dạ Thảo (4.5)"
+        }
+      }
+    },
+    "4.6": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "7": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "7": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "8": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "5": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        },
+        "6": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "8": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "4": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_phuong",
+          "teacher_name": "Cô Phượng (TA)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "2": {
+          "subject": "CN",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_4_6",
+          "teacher_name": "Cô Quỳnh Như (4.6)"
+        }
+      }
+    },
+    "5.1": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "8": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "5": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "6": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        },
+        "7": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "8": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "2": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "7": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "2": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "3": {
+          "subject": "CN",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_5_1",
+          "teacher_name": "Cô Tuyết Mai (5.1)"
+        },
+        "8": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        }
+      }
+    },
+    "5.2": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "3": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "4": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "5": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "6": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "5": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "2": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "3": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "4": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "7": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "8": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "5": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "2": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "3": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "4": {
+          "subject": "CN",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "5": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "6": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_2",
+          "teacher_name": "Thầy Trực (5.2)"
+        }
+      }
+    },
+    "5.3": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "3": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "5": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "8": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "4": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "7": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "3": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "4": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "5": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "6": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "8": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "3": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "4": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "7": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "2": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "3": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "4": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "5": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "6": {
+          "subject": "CN",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_3",
+          "teacher_name": "Cô Kim Anh (5.3)"
+        }
+      }
+    },
+    "5.4": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "3": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "4": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "t_an_chau",
+          "teacher_name": "Cô Châu (Âm nhạc)"
+        },
+        "5": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "6": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "7": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "6": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "7": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "8": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "4": {
+          "subject": "GDTC",
+          "teacher_id": "t_gdtc_phong",
+          "teacher_name": "Thầy Phong (GDTC)"
+        },
+        "5": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "6": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "7": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "2": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "3": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "4": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "5": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        },
+        "6": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "3": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "4": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "5": {
+          "subject": "CN",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_4",
+          "teacher_name": "Thầy Đang (5.4)"
+        }
+      }
+    },
+    "5.5": {
+      "T2": {
+        "1": {
+          "subject": "HĐTN(CC)",
+          "teacher_id": "t_tpt_nhi",
+          "teacher_name": "Cô Yến Nhi (TPT)"
+        },
+        "2": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "3": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "5": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "6": {
+          "subject": "CLB KNS",
+          "teacher_id": "t_kns_2",
+          "teacher_name": "GV KNS (2)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "8": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        }
+      },
+      "T3": {
+        "1": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "2": {
+          "subject": "TA(T-K)",
+          "teacher_id": "t_tatk_2",
+          "teacher_name": "GV TA-TK (2)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "5": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "6": {
+          "subject": "IC3",
+          "teacher_id": "t_ic3_2",
+          "teacher_name": "GV IC3 (2)"
+        },
+        "7": {
+          "subject": "CLB Stem",
+          "teacher_id": "t_stem_3",
+          "teacher_name": "GV STEM (3)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        }
+      },
+      "T4": {
+        "1": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "2": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        },
+        "3": {
+          "subject": "TH",
+          "teacher_id": "t_th_thai",
+          "teacher_name": "Thầy Thái (Tin học)"
+        },
+        "4": {
+          "subject": "HĐTN(CĐ)",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "5": {
+          "subject": "KH",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "6": {
+          "subject": "CLB Toán TD",
+          "teacher_id": "t_toantuduy_3",
+          "teacher_name": "GV Toán TD (3)"
+        },
+        "7": {
+          "subject": "LSĐL",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "8": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        }
+      },
+      "T5": {
+        "1": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "2": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "3": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "4": {
+          "subject": "TV",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "5": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "6": {
+          "subject": "TA(BN)",
+          "teacher_id": "t_tabn_3",
+          "teacher_name": "GV TA-BN (3)"
+        },
+        "7": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "8": {
+          "subject": "Tự học",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        }
+      },
+      "T6": {
+        "1": {
+          "subject": "ĐĐ",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "2": {
+          "subject": "NT(MT)",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "3": {
+          "subject": "NT(ÂN)",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "4": {
+          "subject": "CN",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "5": {
+          "subject": "Toán",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "6": {
+          "subject": "GDTC",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "7": {
+          "subject": "HĐTN(SHL)",
+          "teacher_id": "gvcn_5_5",
+          "teacher_name": "Cô Trâm (5.5)"
+        },
+        "8": {
+          "subject": "TA",
+          "teacher_id": "t_ta_trang",
+          "teacher_name": "Cô Trang (TA)"
+        }
+      }
+    }
+  }
+}
