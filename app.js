@@ -1,9 +1,9 @@
-// APP.JS - GIAO DIỆN & TƯƠNG TÁC HỆ THỐNG TKB NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.3)
+// APP.JS - GIAO DIỆN & TƯƠNG TÁC HỆ THỐNG TKB NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.4)
 
 let currentSchedule = null;
 let currentView = 'class'; // 'class' | 'teacher' | 'master' | 'audit' | 'data'
 let selectedClass = '1.1';
-let selectedTeacher = 't_gdtc_phong';
+let selectedTeacher = 't_ta_phuong';
 let selectedGradeFilter = 'all';
 let isAdmin = false;
 let solver = null;
@@ -50,11 +50,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       const data = await res.json();
       currentSchedule = data.schedule;
     } else {
-      const solved = solver.solve(42);
+      const solved = solver.solve(6);
       currentSchedule = solved.schedule;
     }
   } catch (e) {
-    const solved = solver.solve(42);
+    const solved = solver.solve(6);
     currentSchedule = solved.schedule;
   }
 
@@ -137,13 +137,18 @@ function setupEventListeners() {
   if (btnRegen) btnRegen.addEventListener('click', handleRegenerate);
 
   const btnPrint = document.getElementById('btnPrint');
-  if (btnPrint) btnPrint.addEventListener('click', () => window.print());
+  if (btnPrint) btnPrint.addEventListener('click', () => triggerPrint(currentView));
 
   const btnExportCSV = document.getElementById('btnExportCSV');
   if (btnExportCSV) btnExportCSV.addEventListener('click', exportCurrentViewToCSV);
 
   const btnExportJSON = document.getElementById('btnExportJSON');
   if (btnExportJSON) btnExportJSON.addEventListener('click', exportJSON);
+}
+
+function triggerPrint(view) {
+  document.body.className = 'print-view-' + view;
+  window.print();
 }
 
 function updateRoleUI() {
@@ -209,6 +214,8 @@ function handleAdminLogout() {
 
 function switchView(view) {
   currentView = view;
+  document.body.className = 'print-view-' + view;
+
   document.querySelectorAll('.nav-tab').forEach(tab => {
     if (tab.dataset.view === view) {
       tab.classList.add('border-blue-600', 'text-blue-600', 'font-bold');
@@ -312,7 +319,7 @@ function renderApp() {
   }
 }
 
-// 1. RENDER CLASS VIEW (CHUẨN FORM IN ẤN A4 LANDSCAPE 1 TRANG)
+// 1. RENDER CLASS VIEW (DYNAMIC THEO LỚP ĐƯỢC CHỌN)
 function renderClassView() {
   const container = document.getElementById('classTimetableContainer');
   if (!container || !currentSchedule || !currentSchedule[selectedClass]) return;
@@ -346,7 +353,7 @@ function renderClassView() {
           <div class="font-normal text-[11px] normal-case text-slate-700">Năm học: ${TKB_CONFIG.school.yearShort}</div>
         </div>
 
-        <button onclick="window.print()" class="no-print px-4 py-2 bg-indigo-900 hover:bg-indigo-800 text-white rounded-lg text-xs font-bold flex items-center gap-2 shadow-md transition">
+        <button onclick="triggerPrint('class')" class="no-print px-4 py-2 bg-indigo-900 hover:bg-indigo-800 text-white rounded-lg text-xs font-bold flex items-center gap-2 shadow-md transition">
           <span>🖨️</span> BẤM ĐỂ IN HOẶC LƯU PDF
         </button>
       </div>
@@ -425,7 +432,7 @@ function renderClassView() {
         </tbody>
       </table>
 
-      <!-- Signatures Footer Area -->
+      <!-- Dynamic Signatures Footer Area -->
       <div class="flex justify-between items-start pt-4 px-4 text-xs text-black font-semibold print-signature-box">
         <div class="text-center w-64">
           <div class="font-bold uppercase">GIÁO VIÊN CHỦ NHIỆM</div>
@@ -447,7 +454,7 @@ function renderClassView() {
   container.innerHTML = html;
 }
 
-// 2. RENDER TEACHER VIEW
+// 2. RENDER TEACHER VIEW (DYNAMIC THEO GIÁO VIÊN ĐƯỢC CHỌN + MẪU IN A4 CHUẨN)
 function renderTeacherView() {
   const container = document.getElementById('teacherTimetableContainer');
   if (!container || !currentSchedule || !selectedTeacher) return;
@@ -473,120 +480,148 @@ function renderTeacherView() {
     }
   }
 
-  document.getElementById('teacherTitleHeader').textContent = `LỊCH GIẢNG DẠY: ${teacher.short} - ${teacher.name}`;
-  document.getElementById('teacherSubtitleHeader').textContent = `Môn: ${teacher.subject} | Phân công: ${teacher.assigned} | Tổng số tiết: ${totalPeriods} tiết/tuần`;
+  const morningPeriods = [
+    { p: 1, label: "Tiết 1", time: "(7:45 - 8:20)" },
+    { p: 2, label: "Tiết 2", time: "(8:25 - 9:00)" },
+    { p: 3, label: "Tiết 3", time: "(9:35 - 10:10)" },
+    { p: 4, label: "Tiết 4", time: "(10:15 - 10:50)" }
+  ];
+
+  const afternoonPeriods = [
+    { p: 5, label: "Tiết 5 (Chiều 1)", time: "(13:30 - 14:05)" },
+    { p: 6, label: "Tiết 6 (Chiều 2)", time: "(14:10 - 14:45)" },
+    { p: 7, label: "Tiết 7 (Chiều 3)", time: "(15:15 - 15:50)" },
+    { p: 8, label: "Tiết 8 (CLB/Năng khiếu)", time: "(15:55 - 16:30)" }
+  ];
 
   let html = `
-    <div class="overflow-x-auto bg-white rounded-xl shadow-sm border border-slate-200">
-      <table class="w-full text-left border-collapse min-w-[720px]">
+    <div class="print-sheet">
+      
+      <!-- Top Header Row -->
+      <div class="flex justify-between items-start print-header">
+        <div class="text-left font-bold text-xs leading-snug uppercase text-black">
+          <div>${TKB_CONFIG.school.district}</div>
+          <div class="font-extrabold text-sm tracking-tight">${TKB_CONFIG.school.name}</div>
+          <div class="font-normal text-[11px] normal-case text-slate-700">Năm học: ${TKB_CONFIG.school.yearShort}</div>
+        </div>
+
+        <button onclick="triggerPrint('teacher')" class="no-print px-4 py-2 bg-indigo-900 hover:bg-indigo-800 text-white rounded-lg text-xs font-bold flex items-center gap-2 shadow-md transition">
+          <span>🖨️</span> BẤM ĐỂ IN LỊCH DẠY NÀY
+        </button>
+      </div>
+
+      <!-- Center Title -->
+      <div class="text-center my-3 print-title-box">
+        <h2 class="text-base sm:text-lg font-black uppercase tracking-wider text-black">
+          LỊCH GIẢNG DẠY: ${teacher.short.toUpperCase()} — ${teacher.name.toUpperCase()}
+        </h2>
+        <div class="text-xs text-black mt-0.5">
+          Môn phụ trách: <span class="font-bold">${teacher.subject}</span> | Phân công: <span class="font-bold">${teacher.assigned}</span> | Tổng số tiết: <span class="font-bold text-blue-900">${totalPeriods} tiết/tuần</span>
+        </div>
+      </div>
+
+      <!-- Table Grid (Chuẩn Form In A4 Ngang) -->
+      <table class="tkb-print-table">
         <thead>
-          <tr class="bg-slate-50 border-b border-slate-200 text-xs font-semibold text-slate-600 uppercase">
-            <th class="py-3 px-4 w-28 text-center">Buổi</th>
-            <th class="py-3 px-3 w-32">Tiết & Giờ</th>
-            ${TKB_CONFIG.days.map(d => `<th class="py-3 px-3 text-center w-1/5">${d.name}</th>`).join('')}
+          <tr>
+            <th class="session-col">BUỔI</th>
+            <th class="period-col">TIẾT / GIỜ</th>
+            ${TKB_CONFIG.days.map(d => `<th class="w-1/5">${d.name}</th>`).join('')}
           </tr>
         </thead>
-        <tbody class="divide-y divide-slate-100 text-sm">
+        <tbody>
   `;
 
-  // Morning
-  html += renderTeacherSessionRows('Sáng', [1, 2, 'break_am', 3, 4], tSched);
-  // Lunch
-  html += `
-    <tr class="bg-amber-50/50 border-y border-amber-100 text-amber-800 text-xs font-medium">
-      <td colspan="7" class="py-2.5 px-4 text-center">
-        <div class="flex items-center justify-center gap-2">
-          <span class="inline-block w-2 h-2 rounded-full bg-amber-400"></span>
-          <span>10:50 - 13:30 : Bán trú, Ăn trưa & Nghỉ trưa</span>
-        </div>
+  // Morning (Sáng) - 4 Rows
+  morningPeriods.forEach((item, idx) => {
+    html += `<tr>`;
+    if (idx === 0) {
+      html += `
+        <td rowspan="4" class="session-col bg-white font-black text-black">
+          SÁNG
+        </td>
+      `;
+    }
+    html += `
+      <td class="period-col">
+        ${item.label}
+        <span class="period-time">${item.time}</span>
       </td>
-    </tr>
-  `;
-  // Afternoon
-  html += renderTeacherSessionRows('Chiều', [5, 6, 'break_pm', 7, 8], tSched);
+    `;
+    TKB_CONFIG.days.forEach(d => {
+      const entries = tSched[d.id][item.p] || [];
+      html += `<td class="subject-cell">`;
+      if (entries.length > 0) {
+        if (entries.length === 1) {
+          html += `Lớp ${entries[0].class} (${entries[0].subject})`;
+        } else {
+          html += `Toàn trường (${entries.length} lớp)`;
+        }
+      } else {
+        html += `-`;
+      }
+      html += `</td>`;
+    });
+    html += `</tr>`;
+  });
+
+  // Afternoon (Chiều) - 4 Rows
+  afternoonPeriods.forEach((item, idx) => {
+    html += `<tr>`;
+    if (idx === 0) {
+      html += `
+        <td rowspan="4" class="session-col bg-white font-black text-black">
+          CHIỀU
+        </td>
+      `;
+    }
+    html += `
+      <td class="period-col">
+        ${item.label}
+        <span class="period-time">${item.time}</span>
+      </td>
+    `;
+    TKB_CONFIG.days.forEach(d => {
+      const entries = tSched[d.id][item.p] || [];
+      html += `<td class="subject-cell">`;
+      if (entries.length > 0) {
+        if (entries.length === 1) {
+          html += `Lớp ${entries[0].class} (${entries[0].subject})`;
+        } else {
+          html += `Toàn trường (${entries.length} lớp)`;
+        }
+      } else {
+        html += `-`;
+      }
+      html += `</td>`;
+    });
+    html += `</tr>`;
+  });
 
   html += `
         </tbody>
       </table>
+
+      <!-- Dynamic Signatures Footer Area -->
+      <div class="flex justify-between items-start pt-4 px-4 text-xs text-black font-semibold print-signature-box">
+        <div class="text-center w-64">
+          <div class="font-bold uppercase">GIÁO VIÊN GIẢNG DẠY</div>
+          <div class="italic text-[10.5px] font-normal text-slate-700">(Ký và ghi rõ họ tên)</div>
+          <div class="mt-12 font-bold text-sm print-signature-name">${teacher.name}</div>
+        </div>
+
+        <div class="text-center w-64">
+          <div class="italic text-[11px] font-normal mb-0.5">TP. Hồ Chí Minh, ngày ..... tháng ..... năm 2026</div>
+          <div class="font-bold uppercase">HIỆU TRƯỞNG</div>
+          <div class="italic text-[10.5px] font-normal text-slate-700">(Ký và đóng dấu)</div>
+          <div class="mt-12 font-bold text-sm print-signature-name">${TKB_CONFIG.school.principal}</div>
+        </div>
+      </div>
+
     </div>
   `;
 
   container.innerHTML = html;
-}
-
-function renderTeacherSessionRows(sessionName, periodsList, tSched) {
-  let html = '';
-  let sessionRendered = false;
-  const numRows = periodsList.length;
-
-  periodsList.forEach(p => {
-    if (typeof p === 'string') {
-      const slot = TKB_CONFIG.timeSlots.find(s => s.period === p);
-      html += `
-        <tr class="bg-slate-50/70 text-slate-500 text-xs border-y border-slate-100">
-          <td class="py-1.5 px-3 font-mono text-center">${slot ? slot.time : ''}</td>
-          <td colspan="5" class="py-1.5 px-3 text-center italic">${slot ? slot.name + ' (' + slot.note + ')' : ''}</td>
-        </tr>
-      `;
-      return;
-    }
-
-    const slot = TKB_CONFIG.timeSlots.find(s => s.period === p);
-    html += `<tr class="hover:bg-slate-50/50 transition-colors">`;
-
-    if (!sessionRendered) {
-      html += `
-        <td rowspan="${numRows}" class="py-3 px-4 font-semibold text-center border-r border-slate-100 ${sessionName === 'Sáng' ? 'bg-amber-50/30 text-amber-700' : 'bg-blue-50/30 text-blue-700'}">
-          <div class="flex flex-col items-center justify-center">
-            <span class="text-base">${sessionName === 'Sáng' ? '☀️' : '🌤️'}</span>
-            <span class="font-bold text-xs uppercase tracking-wider mt-1">${sessionName}</span>
-          </div>
-        </td>
-      `;
-      sessionRendered = true;
-    }
-
-    html += `
-      <td class="py-2.5 px-3 border-r border-slate-100">
-        <div class="font-bold text-slate-700">Tiết ${p}</div>
-        <div class="text-[11px] font-mono text-slate-500">${slot ? slot.time : ''}</div>
-      </td>
-    `;
-
-    TKB_CONFIG.days.forEach(d => {
-      const entries = tSched[d.id][p] || [];
-      html += `<td class="py-2 px-2 border-r border-slate-100 last:border-r-0">`;
-      if (entries.length > 0) {
-        if (entries.length === 1) {
-          const item = entries[0];
-          const color = TKB_CONFIG.subjectColors[item.subject] || { bg: 'bg-blue-100', border: 'border-blue-300', text: 'text-blue-900', name: item.subject };
-          html += `
-            <div class="p-2 rounded-lg border ${color.bg} ${color.border} flex flex-col justify-between min-h-[56px] shadow-sm">
-              <div class="font-bold text-sm text-blue-900 flex items-center justify-between">
-                <span>Lớp ${item.class}</span>
-                <span class="text-[10px] px-1.5 py-0.5 rounded bg-white/80 font-mono font-bold">${item.subject}</span>
-              </div>
-              <div class="text-[11px] text-slate-600 truncate mt-1">${color.name}</div>
-            </div>
-          `;
-        } else {
-          html += `
-            <div class="p-2 rounded-lg border bg-purple-100 border-purple-300 text-purple-900 min-h-[56px]">
-              <div class="font-bold text-xs">Toàn trường (${entries.length} lớp)</div>
-              <div class="text-[10px] mt-1 truncate">${entries[0].subject}</div>
-            </div>
-          `;
-        }
-      } else {
-        html += `<div class="h-14 flex items-center justify-center text-slate-300 text-xs italic">-</div>`;
-      }
-      html += `</td>`;
-    });
-
-    html += `</tr>`;
-  });
-
-  return html;
 }
 
 // 3. RENDER MASTER VIEW
@@ -928,7 +963,7 @@ function exportJSON() {
     return;
   }
   const exportData = {
-    version: "V2.3",
+    version: "V2.4",
     school: TKB_CONFIG.school,
     generatedAt: new Date().toISOString(),
     schedule: currentSchedule
@@ -937,7 +972,7 @@ function exportJSON() {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.setAttribute("href", url);
-  link.setAttribute("download", `TKB_NguyenAnKhuong_V2.3_${new Date().toISOString().slice(0,10)}.json`);
+  link.setAttribute("download", `TKB_NguyenAnKhuong_V2.4_${new Date().toISOString().slice(0,10)}.json`);
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

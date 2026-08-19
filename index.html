@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hệ Thống Thời Khóa Biểu 2026 - 2027 | Trường Tiểu Học Nguyễn An Khương (V2.3)</title>
+  <title>Hệ Thống Thời Khóa Biểu 2026 - 2027 | Trường Tiểu Học Nguyễn An Khương (V2.4)</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
@@ -26,7 +26,7 @@
             </div>
             <h1 class="text-lg sm:text-xl font-black tracking-tight text-white flex items-center gap-2">
               TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG
-              <span class="text-[10px] px-2 py-0.5 rounded-full bg-blue-500/30 text-blue-200 border border-blue-400/30 font-bold">V2.3</span>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-blue-500/30 text-blue-200 border border-blue-400/30 font-bold">V2.4</span>
             </h1>
             <div class="text-[11px] text-blue-200 mt-0.5 flex items-center gap-2.5">
               <span>📅 Năm học 2026 - 2027</span>
@@ -125,7 +125,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-          <label for="classSelect" class="text-xs font-bold text-slate-700 whitespace-nowrap">Chọn lớp:</label>
+          <label for="classSelect" class="text-xs font-bold text-slate-700 whitespace-nowrap">Chọn lớp để xem & in:</label>
           <select id="classSelect" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs sm:text-sm font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2 shadow-sm">
             <!-- Populated via app.js -->
           </select>
@@ -134,7 +134,7 @@
 
       <!-- Class Timetable Print-Ready Container -->
       <div id="classTimetableContainer">
-        <!-- Rendered by app.js -->
+        <!-- Rendered dynamically by app.js -->
       </div>
     </section>
 
@@ -157,23 +157,15 @@
         </div>
       </div>
 
-      <!-- Teacher Header Box -->
-      <div class="bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-100 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-        <div>
-          <h2 id="teacherTitleHeader" class="text-lg sm:text-xl font-black text-emerald-950">LỊCH GIẢNG DẠY GIÁO VIÊN</h2>
-          <p id="teacherSubtitleHeader" class="text-xs text-emerald-700 mt-0.5">Thông tin phân công chuyên môn và số tiết giảng dạy trong tuần</p>
-        </div>
-      </div>
-
-      <!-- Teacher Timetable Grid Table -->
+      <!-- Teacher Timetable Grid Table (Dynamic Print Container) -->
       <div id="teacherTimetableContainer">
-        <!-- Rendered by app.js -->
+        <!-- Rendered dynamically by app.js -->
       </div>
     </section>
 
     <!-- 3. PANEL: MA TRẬN TOÀN TRƯỜNG -->
     <section id="panel-master" class="view-panel space-y-4 hidden">
-      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between">
+      <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex items-center justify-between no-print">
         <div>
           <h2 class="text-base font-bold text-slate-900">Ma Trận Tổng Thể Thời Khóa Biểu 29 Lớp (Thứ 2 - Thứ 6)</h2>
           <p class="text-xs text-slate-500 mt-0.5">Bảng tổng hợp toàn bộ 1.100 tiết học của 29 lớp trong tuần</p>
@@ -216,7 +208,7 @@
     <div class="max-w-7xl mx-auto px-4 space-y-1">
       <div class="font-semibold text-slate-700">TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG — NĂM HỌC 2026 - 2027</div>
       <div>Hiệu trưởng: Hồ Thị Ngọc Diễm | Quản lý: UBND Phường Đông Hưng Thuận</div>
-      <div class="text-[11px] text-slate-400 mt-2">Hệ thống phân phối và xếp Thời khóa biểu tự động hóa chuẩn GDPT 2018 (Phiên bản V2.3)</div>
+      <div class="text-[11px] text-slate-400 mt-2">Hệ thống phân phối và xếp Thời khóa biểu tự động hóa chuẩn GDPT 2018 (Phiên bản V2.4)</div>
     </div>
   </footer>
 

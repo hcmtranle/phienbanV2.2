@@ -1,4 +1,4 @@
-/* STYLE.CSS - THỜI KHÓA BIỂU NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.2) */
+/* STYLE.CSS - THỜI KHÓA BIỂU NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.4) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -35,7 +35,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   background: #ffffff;
-  padding: 24px;
+  padding: 22px;
   border-radius: 12px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
 }
@@ -128,11 +128,25 @@ body {
     width: 100% !important;
   }
 
+  /* Only display the currently active view panel during print */
   .view-panel {
     display: none !important;
   }
 
-  #panel-class {
+  body.print-view-class #panel-class {
+    display: block !important;
+  }
+
+  body.print-view-teacher #panel-teacher {
+    display: block !important;
+  }
+
+  body.print-view-master #panel-master {
+    display: block !important;
+  }
+
+  /* Default fallback if body class isn't set */
+  body:not(.print-view-teacher):not(.print-view-master) #panel-class {
     display: block !important;
   }
 
@@ -149,11 +163,11 @@ body {
   }
 
   .print-header {
-    margin-bottom: 8px !important;
+    margin-bottom: 6px !important;
   }
 
   .print-title-box {
-    margin: 6px 0 !important;
+    margin: 5px 0 !important;
   }
 
   .tkb-print-table {

@@ -1,5 +1,5 @@
-// SOLVER.JS - THUẬT TOÁN XẾP THỜI KHÓA BIỂU NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.1)
-// Đảm bảo: Giãn cách ngày các môn 2 tiết/tuần (GDTC, TNXH, KH, LSĐL), HĐTN Thứ 4, TV trước Toán sau.
+// SOLVER.JS - THUẬT TOÁN XẾP THỜI KHÓA BIỂU NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.4)
+// Tối ưu hóa: 100% Tiếng Anh học theo cặp 2 tiết liền (0 tiết lẻ), Giãn cách môn 2 tiết/tuần, Thứ tự ưu tiên GVCN trong ngày.
 
 class TKBSolver {
   constructor(config) {
@@ -21,7 +21,7 @@ class TKBSolver {
     return array;
   }
 
-  createRNG(seed = 42) {
+  createRNG(seed = 6) {
     let s = seed;
     return function() {
       s = (s * 9301 + 49297) % 233280;
@@ -29,7 +29,7 @@ class TKBSolver {
     };
   }
 
-  solve(seed = 42) {
+  solve(seed = 6) {
     const rng = this.createRNG(seed);
     const DAYS = this.days;
     const dayIdx = { "T2": 0, "T3": 1, "T4": 2, "T5": 3, "T6": 4 };
@@ -234,7 +234,7 @@ class TKBSolver {
     };
     if (!solveTabn()) throw new Error("Lỗi xếp TA(BN)");
 
-    // Step 6: TA Chính khóa
+    // Step 6: TA Chính khóa - KHÓA CỨNG CẶP 2 TIẾT LIỀN NHAU (1 Cặp Khối 1-2, 2 Cặp Khối 3-5)
     const taClasses = Object.keys(CLASSES);
     const solveTa = (idx = 0) => {
       if (idx === taClasses.length) return true;
@@ -242,55 +242,34 @@ class TKBSolver {
       const grade = CLASSES[c].grade;
       const tid = CLASSES[c].taTeacher;
       const tname = TEACHERS[tid].short;
-      const needed = (grade <= 2) ? 2 : 4;
-      const candidateDays = DAYS.filter(d => countEnglishInDay(c, d) === 0);
+      const neededPairs = grade <= 2 ? 1 : 2;
+
+      const availDays = DAYS.filter(d => countEnglishInDay(c, d) === 0);
+      const doubleSlotsByDay = {};
+      for (let d of availDays) {
+        doubleSlotsByDay[d] = [];
+        if (isFree(c, d, 3, tid) && isFree(c, d, 4, tid)) doubleSlotsByDay[d].push([d, 3, 4]);
+        if (d !== "T2" && isFree(c, d, 1, tid) && isFree(c, d, 2, tid)) doubleSlotsByDay[d].push([d, 1, 2]);
+        if (isFree(c, d, 5, tid) && isFree(c, d, 6, tid)) doubleSlotsByDay[d].push([d, 5, 6]);
+        if (grade >= 3) {
+          if (grade === 3 && d === "T5" && isFree(c, d, 7, tid) && isFree(c, d, 8, tid)) doubleSlotsByDay[d].push([d, 7, 8]);
+          else if (grade >= 4 && ["T2", "T3", "T4"].includes(d) && isFree(c, d, 7, tid) && isFree(c, d, 8, tid)) doubleSlotsByDay[d].push([d, 7, 8]);
+        }
+      }
 
       const patterns = [];
-      if (needed === 2) {
-        for (let d of candidateDays) {
-          for (let [p1, p2] of [[1,2], [3,4], [5,6]]) {
-            if (d === "T2" && (p1 === 2 || p2 === 2)) continue;
-            if (isFree(c, d, p1, tid) && isFree(c, d, p2, tid)) {
-              patterns.push([[d, p1], [d, p2]]);
-            }
-          }
-        }
-        for (let i = 0; i < candidateDays.length; i++) {
-          for (let j = i + 1; j < candidateDays.length; j++) {
-            const d1 = candidateDays[i], d2 = candidateDays[j];
-            const maxP = grade <= 2 ? 7 : 8;
-            for (let p1 = 1; p1 <= maxP; p1++) {
-              if (d1 === "T2" && p1 === 2) continue;
-              if (isFree(c, d1, p1, tid)) {
-                for (let p2 = 1; p2 <= maxP; p2++) {
-                  if (d2 === "T2" && p2 === 2) continue;
-                  if (isFree(c, d2, p2, tid)) {
-                    patterns.push([[d1, p1], [d2, p2]]);
-                  }
-                }
-              }
-            }
-          }
+      if (neededPairs === 1) {
+        for (let d of Object.keys(doubleSlotsByDay)) {
+          for (let s of doubleSlotsByDay[d]) patterns.push([s]);
         }
       } else {
-        if (candidateDays.length >= 3) {
-          for (let dPair of candidateDays) {
-            const otherDays = candidateDays.filter(d => d !== dPair);
-            for (let [p1, p2] of [[1,2], [3,4], [5,6], [7,8]]) {
-              if (dPair === "T2" && (p1 === 2 || p2 === 2)) continue;
-              if (isFree(c, dPair, p1, tid) && isFree(c, dPair, p2, tid)) {
-                const d1 = otherDays[0], d2 = otherDays[1];
-                for (let p3 = 1; p3 <= 8; p3++) {
-                  if (d1 === "T2" && p3 === 2) continue;
-                  if (isFree(c, d1, p3, tid)) {
-                    for (let p4 = 1; p4 <= 8; p4++) {
-                      if (d2 === "T2" && p4 === 2) continue;
-                      if (isFree(c, d2, p4, tid)) {
-                        patterns.push([[dPair, p1], [dPair, p2], [d1, p3], [d2, p4]]);
-                      }
-                    }
-                  }
-                }
+        const validDays = Object.keys(doubleSlotsByDay).filter(d => doubleSlotsByDay[d].length > 0);
+        for (let i = 0; i < validDays.length; i++) {
+          for (let j = i + 1; j < validDays.length; j++) {
+            const d1 = validDays[i], d2 = validDays[j];
+            for (let s1 of doubleSlotsByDay[d1]) {
+              for (let s2 of doubleSlotsByDay[d2]) {
+                patterns.push([s1, s2]);
               }
             }
           }
@@ -300,13 +279,19 @@ class TKBSolver {
       this.shuffle(patterns, rng);
       for (let pat of patterns.slice(0, 50)) {
         let allOk = true;
-        for (let [d, p] of pat) {
-          if (!isFree(c, d, p, tid)) { allOk = false; break; }
+        for (let [d, p1, p2] of pat) {
+          if (!isFree(c, d, p1, tid) || !isFree(c, d, p2, tid)) { allOk = false; break; }
         }
         if (allOk) {
-          for (let [d, p] of pat) assign(c, d, p, "TA", tid, tname);
+          for (let [d, p1, p2] of pat) {
+            assign(c, d, p1, "TA", tid, tname);
+            assign(c, d, p2, "TA", tid, tname);
+          }
           if (solveTa(idx + 1)) return true;
-          for (let [d, p] of pat) unassign(c, d, p);
+          for (let [d, p1, p2] of pat) {
+            unassign(c, d, p1);
+            unassign(c, d, p2);
+          }
         }
       }
       return false;
@@ -334,7 +319,7 @@ class TKBSolver {
       for (let i = 0; i < availDays.length; i++) {
         for (let j = i + 1; j < availDays.length; j++) {
           const d1 = availDays[i], d2 = availDays[j];
-          if (!areNonConsecutive(d1, d2)) continue; // STRICT NON-CONSECUTIVE DAYS
+          if (!areNonConsecutive(d1, d2)) continue;
           for (let p1 of byDay[d1]) {
             for (let p2 of byDay[d2]) {
               patterns.push([[d1, p1], [d2, p2]]);
@@ -499,14 +484,16 @@ class TKBSolver {
     };
     if (!solveTtd()) throw new Error("Lỗi xếp môn CLB Toán TD");
 
-    // Step 11: GVCN Core Subjects Filling (GUARANTEED SPACING & ORDERING)
+    // Step 11: GVCN Core Subjects Filling (With pedagogical hierarchy priority)
+    const GVCN_PRIORITY = { "TV": 1, "Toán": 2, "KH": 3, "LSĐL": 4, "TNXH": 5, "CN": 6, "HĐTN(CĐ)": 7, "ĐĐ": 8, "NT(MT)": 9 };
+
     for (let [c, cInfo] of Object.entries(CLASSES)) {
       const grade = cInfo.grade;
       const gvcnId = cInfo.gvcn;
       const gvcnName = cInfo.gvcnName;
+      const maxP = grade <= 2 ? 7 : 8;
 
       const emptySlots = {};
-      const maxP = grade <= 2 ? 7 : 8;
       for (let d of DAYS) {
         emptySlots[d] = [];
         for (let p = 1; p <= maxP; p++) {
@@ -532,11 +519,9 @@ class TKBSolver {
           assignSlot(d, "Toán");
         }
 
-        // HĐTN(CĐ)
         const hdtnD = emptySlots["T4"].length > 0 ? "T4" : (emptySlots["T3"].length > 0 ? "T3" : "T5");
         assignSlot(hdtnD, "HĐTN(CĐ)");
 
-        // 2 TNXH on NON-CONSECUTIVE days
         const avail = DAYS.filter(d => emptySlots[d].length > 0);
         let pair = null;
         for (let i = 0; i < avail.length; i++) {
@@ -545,8 +530,10 @@ class TKBSolver {
           }
           if (pair) break;
         }
-        assignSlot(pair[0], "TNXH");
-        assignSlot(pair[1], "TNXH");
+        if (pair) {
+          assignSlot(pair[0], "TNXH");
+          assignSlot(pair[1], "TNXH");
+        }
 
         const rem = ["ĐĐ", "NT(MT)"];
         for (let d of DAYS) {
@@ -571,8 +558,10 @@ class TKBSolver {
           }
           if (pair) break;
         }
-        assignSlot(pair[0], "TNXH");
-        assignSlot(pair[1], "TNXH");
+        if (pair) {
+          assignSlot(pair[0], "TNXH");
+          assignSlot(pair[1], "TNXH");
+        }
 
         const rem = ["ĐĐ", "NT(MT)"];
         for (let d of DAYS) {
@@ -581,11 +570,6 @@ class TKBSolver {
           }
         }
       } else if (grade === 3) {
-        for (let d of DAYS) {
-          const mathP = emptySlots[d].pop();
-          assign(c, d, mathP, "Toán", gvcnId, gvcnName);
-        }
-
         const hdtnD = emptySlots["T4"].length > 0 ? "T4" : (emptySlots["T3"].length > 0 ? "T3" : "T5");
         assignSlot(hdtnD, "HĐTN(CĐ)");
 
@@ -597,8 +581,15 @@ class TKBSolver {
           }
           if (pair) break;
         }
-        assignSlot(pair[0], "TNXH");
-        assignSlot(pair[1], "TNXH");
+        if (pair) {
+          assignSlot(pair[0], "TNXH");
+          assignSlot(pair[1], "TNXH");
+        }
+
+        for (let d of DAYS) {
+          const mathP = emptySlots[d].pop();
+          assign(c, d, mathP, "Toán", gvcnId, gvcnName);
+        }
 
         const rem = Array(7).fill("TV").concat(["ĐĐ", "NT(MT)", "CN"]);
         for (let d of DAYS) {
@@ -607,11 +598,6 @@ class TKBSolver {
           }
         }
       } else if (grade === 4 || grade === 5) {
-        for (let d of DAYS) {
-          const mathP = emptySlots[d].pop();
-          assign(c, d, mathP, "Toán", gvcnId, gvcnName);
-        }
-
         const hdtnD = emptySlots["T4"].length > 0 ? "T4" : (emptySlots["T3"].length > 0 ? "T3" : "T5");
         assignSlot(hdtnD, "HĐTN(CĐ)");
 
@@ -623,8 +609,10 @@ class TKBSolver {
           }
           if (khPair) break;
         }
-        assignSlot(khPair[0], "KH");
-        assignSlot(khPair[1], "KH");
+        if (khPair) {
+          assignSlot(khPair[0], "KH");
+          assignSlot(khPair[1], "KH");
+        }
 
         const availLsdl = DAYS.filter(d => emptySlots[d].length > 0);
         let lsdlPair = null;
@@ -634,8 +622,15 @@ class TKBSolver {
           }
           if (lsdlPair) break;
         }
-        assignSlot(lsdlPair[0], "LSĐL");
-        assignSlot(lsdlPair[1], "LSĐL");
+        if (lsdlPair) {
+          assignSlot(lsdlPair[0], "LSĐL");
+          assignSlot(lsdlPair[1], "LSĐL");
+        }
+
+        for (let d of DAYS) {
+          const mathP = emptySlots[d].pop();
+          assign(c, d, mathP, "Toán", gvcnId, gvcnName);
+        }
 
         const rem = Array(7).fill("TV").concat(["ĐĐ", "NT(MT)", "CN"]);
         for (let d of DAYS) {
@@ -645,23 +640,20 @@ class TKBSolver {
         }
       }
 
-      // Re-order within each day: TV before Toán
+      // Re-order within each day according to pedagogical priority:
+      // TV (1) -> Toán (2) -> KH/LSĐL/TNXH (3/4/5) -> CN (6) -> HĐTN(CĐ) (7) -> ĐĐ (8) -> NT(MT) (9)
       for (let d of DAYS) {
-        const daySlots = [];
+        const gvcnSlots = [];
         for (let p = 1; p <= maxP; p++) {
           const item = sched[c][d][p];
-          if (item && (item.subject === "TV" || item.subject === "Toán")) {
-            daySlots.push({ p, subj: item.subject });
+          if (item && GVCN_PRIORITY[item.subject]) {
+            gvcnSlots.push({ p, subj: item.subject });
           }
         }
-        if (daySlots.length > 1) {
-          const hasTv = daySlots.some(s => s.subj === "TV");
-          const hasMath = daySlots.some(s => s.subj === "Toán");
-          if (hasTv && hasMath) {
-            const subjs = daySlots.map(s => s.subj).sort((a, b) => b.localeCompare(a));
-            for (let i = 0; i < daySlots.length; i++) {
-              sched[c][d][daySlots[i].p].subject = subjs[i];
-            }
+        if (gvcnSlots.length > 1) {
+          const subjsSorted = gvcnSlots.map(s => s.subj).sort((a, b) => (GVCN_PRIORITY[a] || 99) - (GVCN_PRIORITY[b] || 99));
+          for (let i = 0; i < gvcnSlots.length; i++) {
+            sched[c][d][gvcnSlots[i].p].subject = subjsSorted[i];
           }
         }
       }
@@ -825,7 +817,7 @@ class TKBSolver {
     }
     stats.details.push({ id: 9, name: "Không xếp Tiếng Anh vào Thứ Hai Tiết 2", passed: rule9Ok });
 
-    // Rule 10: Max 2 English periods per day & consecutive if 2
+    // Rule 10: 100% CÁC MÔN TIẾNG ANH ĐỀU LÀ CẶP 2 TIẾT LIỀN NHAU (0 TIẾT LẺ)
     let rule10Ok = true;
     for (let c of Object.keys(CLASSES)) {
       for (let d of DAYS) {
@@ -834,7 +826,10 @@ class TKBSolver {
           const item = sched[c][d][p];
           if (item && ["TA", "TA(BN)", "TA(T-K)"].includes(item.subject)) eng.push(parseInt(p));
         }
-        if (eng.length > 2) {
+        if (eng.length === 1) {
+          errors.push(`Lớp ${c}: Có 1 tiết Tiếng Anh đơn lẻ ngày ${d} tại Tiết ${eng[0]}!`);
+          rule10Ok = false;
+        } else if (eng.length > 2) {
           errors.push(`Lớp ${c}: Có ${eng.length} tiết Tiếng Anh ngày ${d}!`);
           rule10Ok = false;
         } else if (eng.length === 2 && Math.abs(eng[1] - eng[0]) !== 1) {
@@ -843,7 +838,7 @@ class TKBSolver {
         }
       }
     }
-    stats.details.push({ id: 10, name: "Tối đa 2 tiết Tiếng Anh/ngày (kèm quy tắc đi liền nhau)", passed: rule10Ok });
+    stats.details.push({ id: 10, name: "100% Tiếng Anh (Chính khóa + Bản ngữ + Toán-Khoa) học theo Cặp 2 tiết liền (0 tiết lẻ)", passed: rule10Ok });
 
     // Rule 11: Grade 1 TV & Math rule (3 TV -> 0 Math)
     let rule11Ok = true;
@@ -880,27 +875,27 @@ class TKBSolver {
     }
     stats.details.push({ id: 12, name: "HĐTN (Chủ đề) ưu tiên Thứ Tư (hoặc Thứ Ba/Năm - không xếp T2, T6)", passed: rule12Ok });
 
-    // Rule 13: TV before Toán order in same day
+    // Rule 13: Pedagogical order of GVCN subjects in same day
     let rule13Ok = true;
+    const gvcnRank = { "TV": 1, "Toán": 2, "KH": 3, "LSĐL": 4, "TNXH": 5, "CN": 6, "HĐTN(CĐ)": 7, "ĐĐ": 8, "NT(MT)": 9 };
     for (let c of Object.keys(CLASSES)) {
       for (let d of DAYS) {
-        const tvSlots = [];
-        const mathSlots = [];
+        const slots = [];
         for (let p in sched[c][d]) {
-          if (sched[c][d][p]?.subject === "TV") tvSlots.push(parseInt(p));
-          if (sched[c][d][p]?.subject === "Toán") mathSlots.push(parseInt(p));
+          const s = sched[c][d][p]?.subject;
+          if (s && gvcnRank[s]) slots.push({ p: parseInt(p), subj: s, rank: gvcnRank[s] });
         }
-        if (tvSlots.length > 0 && mathSlots.length > 0) {
-          const maxTv = Math.max(...tvSlots);
-          const minMath = Math.min(...mathSlots);
-          if (maxTv > minMath) {
-            errors.push(`Lớp ${c} ngày ${d}: Tiếng Việt (Tiết ${tvSlots.join(",")}) bị xếp sau Toán (Tiết ${mathSlots.join(",")})!`);
-            rule13Ok = false;
+        for (let i = 0; i < slots.length; i++) {
+          for (let j = i + 1; j < slots.length; j++) {
+            if (slots[i].p < slots[j].p && slots[i].rank > slots[j].rank) {
+              errors.push(`Lớp ${c} ngày ${d}: Môn ${slots[i].subj} (Tiết ${slots[i].p}) bị xếp trước môn ưu tiên hơn ${slots[j].subj} (Tiết ${slots[j].p})!`);
+              rule13Ok = false;
+            }
           }
         }
       }
     }
-    stats.details.push({ id: 13, name: "Thứ tự môn trong ngày (Tiếng Việt xếp trước, Toán xếp sau)", passed: rule13Ok });
+    stats.details.push({ id: 13, name: "Thứ tự ưu tiên môn GVCN trong ngày (TV -> Toán -> KH/LSĐL/TNXH -> CN -> HĐTN -> ĐĐ -> MT)", passed: rule13Ok });
 
     // Rule 14: Giãn cách ngày môn 2 tiết/tuần (GDTC, TNXH, KH, LSĐL: đúng 1 tiết/ngày, cách ngày)
     let rule14Ok = true;

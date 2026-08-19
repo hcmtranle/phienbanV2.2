@@ -1,4 +1,4 @@
-// DATA.JS - TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.3)
+// DATA.JS - TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.4)
 const TKB_CONFIG = {
   school: {
     name: "TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG",

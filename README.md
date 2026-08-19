@@ -1,63 +1,41 @@
-# HỆ THỐNG THỜI KHÓA BIỂU TỰ ĐỘNG — PHIÊN BẢN V2.3 (NĂM HỌC 2026 - 2027)
+# HỆ THỐNG THỜI KHÓA BIỂU TỰ ĐỘNG — PHIÊN BẢN V2.4 (NĂM HỌC 2026 - 2027)
 ## TRƯỜNG TIỂU HỌC NGUYỄN AN KHƯƠNG — PHƯỜNG ĐÔNG HƯNG THUẬN
 
 ---
 
-## 🌟 CÁC CẬP NHẬT NÂNG CẤP TRONG PHIÊN BẢN V2.3
+## 🌟 CÁC CẬP NHẬT NÂNG CẤP ĐẶC BIỆT TRONG PHIÊN BẢN V2.4
 
-1. **Quy tắc thứ tự ưu tiên các môn GVCN trong ngày (Nặng trước – Nhẹ sau):**
-   * Sau khi cố định các tiết của Giáo viên bộ môn & Trung tâm liên kết, các môn do GVCN phụ trách được tự động sắp xếp theo thứ tự ưu tiên từ trên xuống trong ngày:
-     1. **Tiếng Việt (`TV`)**
-     2. **Toán (`Toán`)**
-     3. **Khoa học (`KH`) / Lịch sử & Địa lí (`LSĐL`) / Tự nhiên & Xã hội (`TNXH`)**
-     4. **Công nghệ (`CN`)**
-     5. **HĐTN (Chủ đề) (`HĐTN(CĐ)`)**
-     6. **Đạo đức (`ĐĐ`)**
-     7. **Mĩ thuật (`NT(MT)`)**
-2. **Đổi tên hiển thị môn học chuẩn xác:**
-   * `Sinh hoạt lớp` $\rightarrow$ **`HĐTN (SHL)`**.
-   * `Chào cờ` $\rightarrow$ **`HĐTN (Chào cờ)`**.
-   * `HĐTN Chủ đề` $\rightarrow$ **`HĐTN (Chủ đề)`**.
-3. **Dàn đều 1 trang A4 khổ ngang (Landscape) khi In ấn / Xuất PDF:**
-   * Tự động căn chỉnh vừa khít trên đúng 1 trang A4 ngang (gồm Quốc hiệu, Tên trường, Tên lớp, Bảng 8 tiết Sáng/Chiều và Chữ ký GVCN / Hiệu trưởng Hồ Thị Ngọc Diễm).
-4. **Giãn cách ngày môn 2 tiết/tuần (GDTC, TNXH, KH, LSĐL):**
-   * 100% không bao giờ học 2 tiết/ngày và xếp cách nhau ít nhất 1 ngày.
+1. **Khóa Cứng 100% Các Tiết Tiếng Anh Thành Cặp 2 Tiết Liền Nhau (ZERO Tiết Lẻ):**
+   * Toàn bộ môn Tiếng Anh (bao gồm: `Tiếng Anh chính khóa`, `Tiếng Anh Bản ngữ TA(BN)`, `Tiếng Anh Toán-Khoa TA(T-K)`) đều được phân bổ theo **đúng cặp 2 tiết liền kề** trong ngày:
+     * **Khối 1 & 2:** Đúng 3 ngày học Tiếng Anh trong tuần, mỗi ngày học đúng 1 cặp 2 tiết liền (2 ngày còn lại không học Tiếng Anh).
+     * **Khối 3, 4 & 5:** Đúng 4 ngày học Tiếng Anh trong tuần, mỗi ngày học đúng 1 cặp 2 tiết liền (1 ngày còn lại không học Tiếng Anh).
+   * **Tuyệt đối không còn tình trạng xé lẻ 1 tiết đơn lẻ** ở bất kỳ lớp nào (như Lớp 4.4 trước đây học 1 tiết Thứ 2 và 1 tiết Thứ 6).
+   * **Lịch dạy của 4 giáo viên Tiếng Anh** (Cô Phượng, Cô Trang, Cô Thy, Cô Tâm) 100% là các cặp 2 tiết liền, không có tiết thủng và không có ngày đi dạy chỉ 1 tiết lẻ.
 
----
+2. **Bổ Sung Tính Năng In Ấn Động Cho Từng Đối Tượng (Tự Chọn Linh Hoạt):**
+   * **In Theo Lớp Bất Kỳ:** Khi chọn bất kỳ lớp nào trong 29 lớp (từ Lớp 1.1 đến Lớp 5.5), hệ thống tự động cập nhật Tiêu đề lớp, Khối, và **tên Giáo viên chủ nhiệm chính xác của lớp đó ở đầu bảng và chữ ký chân trang** (không bị cố định cô Linh 1.1 như trước).
+   * **In Theo Giáo Viên Bất Kỳ:** Hỗ trợ in lịch giảng dạy riêng cho từng giáo viên trong 57 giáo viên (29 GVCN, 9 GV bộ môn, 18 GV liên kết) trên biểu mẫu chuẩn A4 ngang có chữ ký xác nhận của Giáo viên và Hiệu trưởng.
+   * **In Ma Trận Toàn Trường:** In toàn bộ 1.100 tiết học của 29 lớp.
 
-## 💻 HƯỚNG DẪN CHI TIẾT CÁCH UPLOAD LÊN GITHUB & ĐỒNG BỘ NETLIFY (TRÊN WINDOWS)
-
-### BƯỚC 1: Giải nén file cập nhật vào thư mục dự án trên máy
-1. Tải file `tkb_nguyen_an_khuong_V2.3_2026_2027.zip` về máy tính.
-2. Giải nén toàn bộ các file bên trong và chép đè (Replace all) vào thư mục dự án mà Thầy đã đưa lên GitHub trước đó.
+3. **Toàn Bộ Các Quy Tắc Sư Phạm Được Kiểm Định Chuẩn Xác 16/16:**
+   * Các môn 2 tiết/tuần (`GDTC`, `TNXH`, `KH`, `LSĐL`): Đúng 1 tiết/ngày và **xếp cách nhau ít nhất 1 ngày** ($|d_1 - d_2| \ge 2$).
+   * Thứ tự ưu tiên trong ngày: $\text{Tiếng Việt} \rightarrow \text{Toán} \rightarrow \text{Khoa học / LS\&ĐL / TN\&XH} \rightarrow \text{Công nghệ} \rightarrow \text{HĐTN (Chủ đề)} \rightarrow \text{Đạo đức} \rightarrow \text{Mĩ thuật}$.
+   * Tên môn học hiển thị chuẩn: **`HĐTN (SHL)`**, **`HĐTN (Chào cờ)`**, **`HĐTN (Chủ đề)`**.
+   * Hoạt động trải nghiệm chủ đề ưu tiên **Thứ Tư**.
+   * Dàn đều vừa khít **1 trang A4 khổ ngang (Landscape)**.
 
 ---
 
-### BƯỚC 2: Mở cửa sổ dòng lệnh tại đúng thư mục dự án
-1. Mở thư mục dự án bằng **File Explorer** (cửa sổ quản lý file màu vàng của Windows).
-2. Nhấp chuột vào **thanh địa chỉ (Address Bar)** ở trên cùng của cửa sổ thư mục.
-3. Gõ chữ: `cmd` (hoặc `powershell`) rồi nhấn phím **Enter**.
-4. Cửa sổ dòng lệnh màu đen sẽ hiện ra ngay tại thư mục dự án (ví dụ: `D:\tkb-nguyen-an-khuong>`).
+## 💻 HƯỚNG DẪN TẢI LÊN GITHUB BẰNG WEB (KÉO THẢ TRỰC TIẾP) & ĐỒNG BỘ NETLIFY
+
+Thầy không cần dùng cửa sổ dòng lệnh đen `cmd`, chỉ cần thao tác bằng chuột trên trình duyệt:
+
+1. **Bước 1: Giải nén file `tkb_nguyen_an_khuong_V2.4_2026_2027.zip`** trên máy tính để thấy các file: `index.html`, `data.js`, `solver.js`, `app.js`, `style.css`, `initial_schedule.json`, `netlify.toml`, `README.md`.
+2. **Bước 2: Mở GitHub** tại [https://github.com](https://github.com) và bấm vào tên Repository dự án TKB của Thầy.
+3. **Bước 3: Nhấp vào nút `Add file`** (ở góc phải danh sách file) $\rightarrow$ chọn **`Upload files`**.
+4. **Bước 4: Quét chọn toàn bộ các file** trong thư mục đã giải nén ở Bước 1 và **kéo thả trực tiếp** vào ô tải lên của GitHub. Chờ tải xong, kéo xuống dưới nhấn nút xanh **`Commit changes`**.
+5. **Bước 5:** Netlify sẽ tự động nhận diện và cập nhật website trực tuyến chỉ sau 5–10 giây. Thầy mở link web và nhấn **F5** (hoặc `Ctrl + F5`) để xem bản V2.4 hoàn thiện nhất.
 
 ---
 
-### BƯỚC 3: Đẩy bản cập nhật V2.3 lên GitHub
-Thầy lần lượt gõ (hoặc copy) 3 lệnh sau và nhấn Enter sau mỗi dòng:
-
-```bash
-git add .
-git commit -m "Cap nhat phien ban V2.3 - Thu tu uu tien GVCN trong ngay"
-git push
-```
-
-Sau khi chạy xong lệnh `git push`, toàn bộ mã nguồn V2.3 đã được đẩy lên GitHub thành công.
-
----
-
-### BƯỚC 4: Kiểm tra đồng bộ tự động trên Netlify
-1. Netlify được liên kết với GitHub nên **ngay khi nhận được lệnh `git push`, Netlify sẽ tự động nhận diện và cập nhật website trực tuyến** sau khoảng 5–10 giây.
-2. Thầy chỉ cần truy cập vào đường link website Netlify của trường và nhấn phím **F5** (hoặc `Ctrl + F5`) để xem ngay giao diện mới nhất.
-
----
-
-*Hệ thống Thời khóa biểu Trường Tiểu học Nguyễn An Khương — Năm học 2026 - 2027 (Phiên bản V2.3).*
+*Hệ thống Thời khóa biểu Trường Tiểu học Nguyễn An Khương — Năm học 2026 - 2027 (Phiên bản V2.4).*
