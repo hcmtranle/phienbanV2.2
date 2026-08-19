@@ -1,4 +1,4 @@
-// APP.JS - GIAO DIỆN & TƯƠNG TÁC HỆ THỐNG TKB NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.2)
+// APP.JS - GIAO DIỆN & TƯƠNG TÁC HỆ THỐNG TKB NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.3)
 
 let currentSchedule = null;
 let currentView = 'class'; // 'class' | 'teacher' | 'master' | 'audit' | 'data'
@@ -928,7 +928,7 @@ function exportJSON() {
     return;
   }
   const exportData = {
-    version: "V2.2",
+    version: "V2.3",
     school: TKB_CONFIG.school,
     generatedAt: new Date().toISOString(),
     schedule: currentSchedule
@@ -937,7 +937,7 @@ function exportJSON() {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.setAttribute("href", url);
-  link.setAttribute("download", `TKB_NguyenAnKhuong_V2.2_${new Date().toISOString().slice(0,10)}.json`);
+  link.setAttribute("download", `TKB_NguyenAnKhuong_V2.3_${new Date().toISOString().slice(0,10)}.json`);
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
