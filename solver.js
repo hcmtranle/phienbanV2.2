@@ -1,4 +1,4 @@
-// SOLVER.JS - THUẬT TOÁN XẾP THỜI KHÓA BIỂU NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.4)
+// SOLVER.JS - THUẬT TOÁN XẾP THỜI KHÓA BIỂU NGUYỄN AN KHƯƠNG (PHIÊN BẢN V2.2)
 // Tối ưu hóa: 100% Tiếng Anh học theo cặp 2 tiết liền (0 tiết lẻ), Giãn cách môn 2 tiết/tuần, Thứ tự ưu tiên GVCN trong ngày.
 
 class TKBSolver {
