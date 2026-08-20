@@ -399,7 +399,7 @@ function renderClassView() {
     TKB_CONFIG.days.forEach(d => {
       const cell = sched[d.id] ? sched[d.id][item.p] : null;
       const subjName = cell ? (PRINT_SUBJECT_NAMES[cell.subject] || cell.subject) : '';
-      html += `<td class="subject-cell">${subjName}</td>`;
+      html += `<td class="subject-cell"${cellColorStyle(cell)}>${subjName}</td>`;
     });
     html += `</tr>`;
   });
@@ -423,7 +423,7 @@ function renderClassView() {
     TKB_CONFIG.days.forEach(d => {
       const cell = sched[d.id] ? sched[d.id][item.p] : null;
       const subjName = cell ? (PRINT_SUBJECT_NAMES[cell.subject] || cell.subject) : '';
-      html += `<td class="subject-cell">${subjName}</td>`;
+      html += `<td class="subject-cell"${cellColorStyle(cell)}>${subjName}</td>`;
     });
     html += `</tr>`;
   });
@@ -431,6 +431,8 @@ function renderClassView() {
   html += `
         </tbody>
       </table>
+
+      ${buildSubjectColorLegend(sched)}
 
       <!-- Dynamic Signatures Footer Area -->
       <div class="flex justify-between items-start pt-4 px-4 text-xs text-black font-semibold print-signature-box">
@@ -452,6 +454,50 @@ function renderClassView() {
   `;
 
   container.innerHTML = html;
+}
+
+// Trả về chuỗi style="..." tô màu nền/chữ cho 1 ô môn học dựa theo TKB_CONFIG.subjectColors.
+// Nhờ tô theo MÔN, 2 ô của cùng 1 cặp tiết liền nhau (VD: 2 tiết Tiếng Anh) sẽ luôn cùng màu.
+function cellColorStyle(cell) {
+  if (!cell) return '';
+  const color = TKB_CONFIG.subjectColors[cell.subject];
+  if (!color || !color.hex) return '';
+  return ` style="background-color:${color.hex.bg};color:${color.hex.text};"`;
+}
+
+// Tạo dải chú thích màu (chỉ liệt kê các môn thực sự xuất hiện trong TKB của lớp đang xem)
+function buildSubjectColorLegend(sched) {
+  const usedSubjects = new Set();
+  TKB_CONFIG.days.forEach(d => {
+    const dayObj = sched[d.id];
+    if (!dayObj) return;
+    Object.values(dayObj).forEach(cell => {
+      if (cell && cell.subject) usedSubjects.add(cell.subject);
+    });
+  });
+
+  const chips = Array.from(usedSubjects)
+    .filter(subj => TKB_CONFIG.subjectColors[subj])
+    .sort((a, b) => (PRINT_SUBJECT_NAMES[a] || a).localeCompare(PRINT_SUBJECT_NAMES[b] || b, 'vi'))
+    .map(subj => {
+      const color = TKB_CONFIG.subjectColors[subj];
+      const label = PRINT_SUBJECT_NAMES[subj] || subj;
+      return `
+        <span class="legend-chip" style="background-color:${color.hex.bg};color:${color.hex.text};border-color:${color.hex.border};">
+          ${label}
+        </span>
+      `;
+    })
+    .join('');
+
+  if (!chips) return '';
+
+  return `
+    <div class="legend-bar">
+      <span class="legend-title">Chú thích màu môn học:</span>
+      ${chips}
+    </div>
+  `;
 }
 
 // 2. RENDER TEACHER VIEW (DYNAMIC THEO GIÁO VIÊN ĐƯỢC CHỌN + MẪU IN A4 CHUẨN)
